@@ -739,10 +739,17 @@ background-color: var(--accent-color);
 
     .close-btn:hover,
     .close-btn:focus {
+      color: var(--accent-color);
       scale: 1.2;
-      transition: var(--hover-anime);
     }
 
+    .close-btn-icon {
+      fill: currentColor;
+    }
+
+
+
+      
   .modal-user-data {
     display: flex;
     flex-direction: column;
@@ -882,3 +889,4 @@ transition: var(--hover-anime);
   margin-right: auto;
   text-align: center;
 }
+
