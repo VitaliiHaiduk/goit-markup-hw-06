@@ -590,12 +590,11 @@ background-color: var(--accent-color);
   background-color: #188CE8;  
 }
 
-.btn-send {
+/* .btn-send {
   position: relative;
-}
+} */
 .icon-send {
-  display: block;
-  margin-left: 10px;
+ margin-left: 10px;
  fill: var(--white-text-color);
 }
 
