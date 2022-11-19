@@ -594,9 +594,8 @@ background-color: var(--accent-color);
   position: relative;
 }
 .icon-send {
- position: absolute;
- top: 13px;
- right: 28px;
+  display: block;
+  margin-left: 10px;
  fill: var(--white-text-color);
 }
 
