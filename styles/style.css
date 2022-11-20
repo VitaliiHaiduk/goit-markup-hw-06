@@ -559,7 +559,7 @@ background-color: var(--accent-color);
   outline: transparent;
 }
 
-.email-input:placeholder-shown {
+.email-input::placeholder {
   color: rgba(255, 255, 255, 0.6);
   font-size: 16px;
   line-height: calc(20/16);
@@ -839,14 +839,18 @@ transition:  var(--hover-anime);
   transition:  var(--hover-anime);
 }
 
+.agreement-label{
+  display: flex;
+  align-items: center;
+}
+
 .form-checkbox {
   appearance: none;  
   width: 16px;
   height: 16px;
   cursor: pointer;
   transition: var(--hover-anime);
-  vertical-align: center;
-  }
+}
 
   
 .form-checkbox:checked + .form-checkbox-icon .unchecked {
@@ -856,6 +860,10 @@ transition:  var(--hover-anime);
 .form-checkbox:checked + .form-checkbox-icon .checked {
   opacity: 1;
   transition: var(--hover-anime)
+}
+
+.form-checkbox-icon {
+  cursor: pointer;
 }
 
 .form-checkbox-icon .unchecked{
@@ -869,8 +877,9 @@ transition: var(--hover-anime);
 }
 
 .agreement-text{
+  margin-left: 9px;
   cursor: pointer;
-}
+  }
 .condition-link {
   user-select: none;
   color: var(--accent-color);

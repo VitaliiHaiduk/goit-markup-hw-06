@@ -38,7 +38,7 @@
             info@devstudio.com</a>
         </li>
         <li class="contact-item">
-          <a href="tel:+380961111111" class="contact-link tel">
+          <a href="tel:+380961111111" class="contact-link">
             <svg class="tel-icon" 
             width="10";
             height="16">
@@ -421,19 +421,16 @@
         </div>
         <section class="subscribe">
           <b class="call">підпишіться на розсилку</b>
-          <form class="subscribe-form" name="subscribe_form">
-          <div class="subscribe-items">
+          <form class="subscribe-form subscribe-items" name="subscribe_form">
             <label class="email-field">
               <input class="email-input" type="email" name="subscribe_email" placeholder="E-mail">
             </label>
-            <div class="btn-send">
-            <button class="btn subscribe-btn" type="submit"><span>Підписатися</span>
+            <button class="btn subscribe-btn" type="submit">Підписатися
               <svg class="icon-send" width="24" height="24">
-                <use href="/image/icons.svg#icon-send"></use>
+                <use href="./image/icons.svg#icon-send"></use>
               </svg>
             </button>
-            </div>
-          </div>
+            
           </form>
         </section>
       </div>
@@ -472,7 +469,7 @@
             </label>
             <span class="user-data">Коментар</span>
             <textarea class="form-input-textarea" name="user_feedback"  rows="5" placeholder="Введіть текст"></textarea>   
-            <label form-field>
+            <label class="agreement-label" form-field>
                  <input class="form-checkbox visually-hidden"
                  type="checkbox"
                  name="agreement_checkbox"/>               
